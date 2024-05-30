@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load(open(r'C:\Users\USER\Desktop\lastOne\Bank-Marketting-ML-App-1\bank-additional.sav', 'rb'))
+model = joblib.load(open(r'C:/Users/USER/Desktop/lastOne/Bank-Marketting-ML-App-1/bank-additional.sav', 'rb'))
 
 
 def prediction(features):
